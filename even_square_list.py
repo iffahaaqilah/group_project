@@ -1,7 +1,7 @@
-def get_even_numbers(input_list):
+def get_even_numbers(input):
     even_numbers = []
     
-    for number in input_list:
+    for number in input:
         squarenum = number*number
         if (squarenum) % 2 == 0:
             even_numbers.append(squarenum)
